@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/triangulo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background: #210909b0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 256px;
+    padding: 30px 10px;
+    gap: 10px;
+    border-radius: 16px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+.input{
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #BC8078;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px #f09b73ce, 0 0 0 4px #eb743ecc;
+}
+
+.btn:disabled{
+    opacity: 0.5;
+    cursor: wait;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.textMessage{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+.result{
+    color: #A66F67;
+    font-weight: 400;
+    font-size: 22px;
+}
